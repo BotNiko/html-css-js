@@ -1,0 +1,23 @@
+p {
+    font-size: 25px;
+
+}
+
+footer {
+    background-color: darkgray;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+* {
+    font-family: 'Courier';
+}

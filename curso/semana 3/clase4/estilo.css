@@ -1,0 +1,39 @@
+body{
+    background-color: #BEEDFF;
+}
+
+div{
+    min-height: 600px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    text-align: left;
+    padding: 20px;
+    border: solid 3px;
+    border-color: #FFC81E;
+}
+
+label{
+    font-family:Helvetica;
+    font-size: 16px;
+}
+
+input, textarea{
+    margin: 10px 0px 10px 0px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height:25px;
+    max-height: 300px;
+}
+
+button{
+    background-color: #4AF400;
+    border-radius: 3px;
+    height: 45px;
+    width: 205px;
+    margin: 20px 0px 0px 0px;
+    border: 0px;
+}
