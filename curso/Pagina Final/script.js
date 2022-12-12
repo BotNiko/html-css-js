@@ -1,5 +1,6 @@
 if(prompt("Ingrese su Edad") >= 18){
-    window.location.href = "index2.html";
+    window.location.href = "pagina.html";
 }else{
-    alert("No puede acceder al sitio");
+    alert("Usted esta accediendo a esta pagina bajo su responsabilidad");
+    window.location.href = "pagina.html";
 }
