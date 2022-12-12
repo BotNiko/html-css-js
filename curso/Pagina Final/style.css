@@ -1,3 +1,8 @@
+body{
+    font-family: Helvetica;
+    margin: 0px;
+}
+
 header{
     display: flex;
     position: fixed;
@@ -10,6 +15,11 @@ header{
     z-index: 6;
 }
 
+main{
+    background-color: #ECECEC;
+    padding: 0px 0px 20px 0px;
+}
+
 footer{
     min-height: 70px;
     width: 100%;
@@ -17,4 +27,131 @@ footer{
     justify-content: space-between;
     padding:10px;
     border-top: solid gray 1px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+nav, aside{
+    margin: 0px 0px 20px 0px;
+    padding: 20px;
+    border: solid lightgray 1px;
+    background-color: white;
+}
+
+.divaside{
+    padding: 20px;
+    border: solid lightgray 1px;
+    background-color: white;
+}
+
+li{
+    margin: 5px;
+    font-size: 18px;
+}
+
+h6{
+    color:#609FD8;
+    font-size: 18px;
+}
+
+.navegacion{
+    position: sticky ;
+    top: 90px ;
+}
+
+.subtitulo{
+    margin: 30px 0px 30px 40px;
+    color:#E55454;
+}
+
+.h5titulo{
+    color: #77BCD7;
+    margin: 10px;
+}
+
+.contenedorPrincipal{
+    margin: 0px 5% 20px 0px;
+    display: flex;
+    align-items: flex-start
+}
+
+.textoGeneral{
+    min-width: 65%;
+    margin: 0px 20px 0px 8%;
+    padding: 20px;
+    border: solid lightgray 1px;
+    background-color: white;
+}
+
+.imagenGeneral{
+    width: 95%;
+    margin: 20px;
+}
+
+.enlanceNav{
+    color: black; 
+    text-decoration:none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.fondo{
+    width: 100%;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.centrado{
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    color: #CD991B;
+}
+
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+
+.pie{
+    font-size:18px;
+    padding:10px;
+    display: flex;
+    align-items: flex-start
+}
+
+.pie2{
+    font-size:16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textopie{
+    margin: 0px 20px 0px 20px;
+}
+
+.video{
+    display: flex;
+    width: 100%;
+    height: 180px;
 }
